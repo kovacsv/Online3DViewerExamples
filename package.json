@@ -1,0 +1,19 @@
+{
+	"name": "online-3d-viewer-esm-example",
+	"description": "Online 3D Viewer",
+	"version": "0.0.1",
+	"repository": "github:kovacsv/Online3DViewer",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"start": "http-server",
+		"build": "esbuild main.js --bundle --minify --sourcemap --outfile=bundle.js"
+	},
+	"devDependencies": {
+		"http-server": "^14.0.0",
+		"esbuild": "^0.14.23"
+	},
+	"dependencies": {
+		"online-3d-viewer": "*"
+	}
+}
