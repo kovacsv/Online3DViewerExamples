@@ -1,6 +1,6 @@
 # Online 3D Viewer Example
 
-Example for using [Online 3D Viewer](https://github.com/kovacsv/Online3DViewer) engine as an npm package.
+Example of using [Online 3D Viewer](https://github.com/kovacsv/Online3DViewer) engine as an npm package.
 
 ## How to use?
 
