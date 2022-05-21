@@ -6,8 +6,8 @@
 	"license": "MIT",
 	"type": "module",
 	"scripts": {
-		"start": "http-server",
-		"build": "esbuild main.js --bundle --minify --sourcemap --outfile=bundle.js"
+		"start": "npm run build && http-server",
+		"build": "esbuild source/main.js --bundle --minify --sourcemap --outfile=build/bundle.js"
 	},
 	"devDependencies": {
 		"esbuild": "^0.14.23",
