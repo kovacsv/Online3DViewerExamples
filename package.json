@@ -10,8 +10,8 @@
 		"build": "esbuild main.js --bundle --minify --sourcemap --outfile=bundle.js"
 	},
 	"devDependencies": {
-		"http-server": "^14.0.0",
-		"esbuild": "^0.14.23"
+		"esbuild": "^0.14.23",
+		"http-server": "^14.0.0"
 	},
 	"dependencies": {
 		"online-3d-viewer": "*"
