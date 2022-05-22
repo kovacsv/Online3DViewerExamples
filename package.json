@@ -7,9 +7,11 @@
 	"type": "module",
 	"scripts": {
 		"start": "npm run build && http-server",
-		"build": "esbuild source/main.js --bundle --minify --sourcemap --outfile=build/bundle.js"
+		"copylibs": "copyfiles --up 3 node_modules/online-3d-viewer/libs/loaders/*.* build/libs",
+		"build": "esbuild source/main.js --bundle --minify --sourcemap --outfile=build/bundle.js && npm run copylibs"
 	},
 	"devDependencies": {
+		"copyfiles": "^2.4.1",
 		"esbuild": "^0.14.23",
 		"http-server": "^14.0.0"
 	},
