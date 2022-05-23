@@ -6,7 +6,7 @@ Example of using [Online 3D Viewer](https://github.com/kovacsv/Online3DViewer) e
 
 ## How to use?
 
-Run the folowing commands from the root of the repository:
+Run the following commands from the root of the repository:
 ```
 npm install
 npm start
