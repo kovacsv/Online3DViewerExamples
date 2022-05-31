@@ -7,8 +7,9 @@
 	"type": "module",
 	"scripts": {
 		"start": "npm run build && http-server",
-		"copylibs": "copyfiles --up 3 node_modules/online-3d-viewer/libs/loaders/*.* build/libs",
-		"build": "esbuild source/main.js --bundle --minify --sourcemap --outfile=build/bundle.js && npm run copylibs"
+		"copylibs": "copyfiles --up 3 node_modules/online-3d-viewer/libs/loaders/* build/libs",
+		"copyenvmaps": "copyfiles --up 5 node_modules/online-3d-viewer/website/assets/envmaps/**/* build/envmaps",
+		"build": "esbuild source/main.js --bundle --minify --sourcemap --outfile=build/bundle.js && npm run copylibs && npm run copyenvmaps"
 	},
 	"devDependencies": {
 		"copyfiles": "^2.4.1",
