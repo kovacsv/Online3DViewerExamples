@@ -2,7 +2,7 @@
 
 [![Build](https://github.com/kovacsv/Online3DViewerExample/actions/workflows/build.yml/badge.svg)](https://github.com/kovacsv/Online3DViewerExample/actions/workflows/build.yml)
 
-Example of using [Online 3D Viewer](https://github.com/kovacsv/Online3DViewer) engine as an npm package.
+Example of using [Online 3D Viewer](https://github.com/kovacsv/Online3DViewer) engine as an ES6 module.
 
 ## How to use?
 
