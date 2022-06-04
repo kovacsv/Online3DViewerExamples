@@ -1,0 +1,13 @@
+{
+	"name": "online-3d-viewer-example-browser",
+	"description": "Online 3D Viewer Example",
+	"version": "0.0.1",
+	"repository": "github:kovacsv/Online3DViewerExample",
+	"license": "MIT",
+	"scripts": {
+		"start": "http-server"
+	},
+	"devDependencies": {
+		"http-server": "^14.0.0"
+	}
+}
