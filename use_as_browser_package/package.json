@@ -5,9 +5,12 @@
 	"repository": "github:kovacsv/Online3DViewerExample",
 	"license": "MIT",
 	"scripts": {
-		"start": "http-server"
+		"start": "npm run build && http-server",
+		"build": "download https://github.com/kovacsv/Online3DViewer/releases/latest/download/o3dv.zip > o3dv.zip && 7z x -aos o3dv.zip -oo3dv"
 	},
 	"devDependencies": {
+		"download": "^8.0.0",
+		"download-cli": "^1.1.1",
 		"http-server": "^14.0.0"
 	}
 }
