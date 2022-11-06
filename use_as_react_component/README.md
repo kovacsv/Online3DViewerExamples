@@ -1,5 +1,7 @@
 # Online 3D Viewer with Next.js
 
+This example and documentation was authored by [callum-gander](https://github.com/callum-gander), big thanks for the participation.
+
 ## This is a work in progress! If you want to add or correct these examples, please submit a pull request!
 
 There was a lack of documentation for Online 3D Viewer
@@ -17,6 +19,9 @@ packages and run the server with npm run dev. I've only
 tested this with stl and 3dm files, other files may
 produce unique issues, if you encounter them, please let
 me know
+
+**Important note for Windows users:** If you get errors running
+the above commands, try to run them from a powershell console.
 
 ## Setting up Online 3D Viewer with your Next app:
 
